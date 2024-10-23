@@ -18,7 +18,7 @@
 
 /* Collapsed Sidebar Styles */
 .sidebar.collapsed {
-  width: 80px; /* Adjusted width when sidebar is collapsed */
+  width: 80px; 
 }
 
 .sidebar.collapsed .nav-list a {
@@ -95,15 +95,15 @@
 /* Main content transition */
 .main-content {
   flex-grow: 1;
-  margin-left: 290px; /* Adjust margin based on sidebar width */
+  margin-left: 290px;
   padding: 28px;
   background-color: #fff;
   transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
-/* When sidebar is collapsed, adjust main content */
+
 .sidebar.collapsed ~ .main-content {
-  margin-left: 100px; /* Adjust to match the collapsed sidebar width */
+  margin-left: 100px;
 }
 
 
@@ -685,7 +685,7 @@ thead tr th{
   align-items: center;
   gap: 8px;
   width: auto; /* Ensures it doesn't take up the full width */
-  max-width: fit-content; /* Adjust to content size */
+  max-width: fit-content;
 }
 
 .dots-vertical{
@@ -1031,7 +1031,7 @@ table thead tr th:nth-child(4) { /* Only show Event Name and Status */
 @media only screen and (max-width: 600px) {
   
 
-  /* Adjust main content margin when sidebar is collapsed */
+ 
   .main-content {
    
     padding: 20px;
