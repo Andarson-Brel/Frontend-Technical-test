@@ -1,0 +1,138 @@
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto; 
+
+    width: 440px;
+border-radius: 5px;
+    position: relative;
+  }
+  
+  .close-btn {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 24px !important;
+    cursor: pointer;
+    padding: 0 8px;
+    border: 1px solid #E2E8F0;
+    border-radius: 50%;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #000;
+  }
+
+
+  .modal-actions {
+    background-color: #F8FAFC;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+  }
+  
+  .modal-actions button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+
+    cursor: pointer;
+  }
+  
+  #editBtn { background-color: #fff; 
+    color: #334155;
+border: 1px solid #E2E8F0 !important;
+}
+  #deleteBtn { background-color: #F43F5E; color: #ffff;}
+  #completeBtn { background-color: #8576FF; color: #ffff; }
+  #modalSpeakers{
+    padding: 0 20px;
+margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #modalSpeakers span{
+    margin-top: .8rem;
+  }
+  #eventModal h2,#eventModal p{
+    padding: 0 20px;
+    color: #334155; 
+  }
+  #modalEventDate{
+    color: #64748B ;
+    padding-top: 6px;
+    margin-bottom: 14px;
+  }
+  #eventModal p,#eventModal span{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  #eventModal h2{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  #modalEventDescription{
+    padding: 16px 0;
+  }
+
+
+  /* Dark mode for modal */
+.modal.dark-mode .modal-content {
+    background-color: #484554;
+    color: white !important;
+}
+.modal-content .close-btn.dark-mode{
+    background-color: #ADA9BB;
+    border: none;
+    color: #484554 !important;
+}
+.modal.dark-mode .modal-content h2,
+.modal.dark-mode .modal-content p,.modal.dark-mode .modal-content span {
+    color: white !important;
+}
+
+/* Add dark-mode styles for buttons if needed */
+.dark-mode .modal-actions button {
+    /* background-color: #ADA9BB; */
+    color: white !important;
+}
+
+.dark-mode .status {
+    color: white !important;
+}
+
+.modal-actions.dark-mode{
+    background: #ADA9BB;
+}
+.modal-actions.dark-mode #editBtn{
+    background: #E2E8F0;
+    color: #334155 !important;
+}
+
+@media only screen and (max-width:768px) {
+    .modal-content{
+        width: 80%;
+    }
+    .modal-actions, .modal-actions div{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/Modal.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-logo">logo</div>
+    <img src="./Assets/hamburger-menu-light.svg" alt="menu icon" id="menu-toggle"/>
+</header>
+
+  <div class="div-body">
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+     <!-- Inside your sidebar HTML -->
+<nav class="sidebar fixed-sidebar">
+<div class="logo-section">
+    Full Logo
+</div>
+<ul class="nav-list">
+    <li class="active-link"><img src="./Assets/nav-icons/home-active.svg" alt="nav icon"/><a href="#" >Home</a></li>
+    <li><img src="./Assets/nav-icons/event-opened.svg" alt="nav icon"/><a href="#">Events</a></li>
+    <li><img src="./Assets/nav-icons/speaker-opened.svg" alt="nav icon"/><a href="#">Speakers</a></li>
+    <li><img src="./Assets/nav-icons/report-opened.svg" alt="nav icon"/><a href="#">Reports</a></li>
+    <li ><img src="./Assets/nav-icons/notification-opened.svg" alt="nav icon"/><a href="#" class="notif">Notifications <span class="notif-badge">3</span></a></li>
+    <li><img src="./Assets/nav-icons/message-opened.svg" alt="nav icon"/><a href="#">Messages</a></li>
+    <li><img src="./Assets/nav-icons/setting-opened.svg" alt="nav icon"/><a href="#">Settings</a></li>
+    <li class="collapse-btn"><img src="./Assets/nav-icons/arrow-opened.svg" alt="Collapse" id="collapse-icon"/><a href="#">Collapse</a></li>
+</ul>
+<label id="label">
+    <input type="checkbox" id="theme-switch"> Dark mode
+</label>
+<div class="user-info">
+    <div class="profile-icon">
+        <img src="./Assets/nav-icons/Profileicon-collapsed.svg"/>
+    </div>
+    <div>
+        <p>Rudra Devi</p>
+        <p class="email-container">rudra.devi@gmail.com</p>
+    </div>
+</div>
+</nav>
+
+    
+
+      <!-- Main Content -->
+      <main class="main-content">
+          <!-- Summary Cards -->
+           <h5 class="Welcome-msg">Welcome! here’s your summary</h5>
+          <section class="summary-cards">
+              <div class="card">
+                  <h5 class="card-hearding">Total Events</h5>
+                  <div class="price-percentage">
+
+                    <p>100,000</p>
+                    <span class="percentage positive"><img src="./Assets/arrow-up.svg"/>5.0%</span>
+                  </div>
+              </div>
+              <div class="card">
+                  <h5 class="card-hearding">Active Speakers</h5>
+                  <div class="price-percentage">
+
+                    <p>100,000</p>
+                    <span class="percentage negative"><img src="./Assets/arrow-down.svg"/>5.0%</span>
+                  </div>
+              </div>
+              <div class="card">
+                  <h5 class="card-hearding">Total Registrations</h5>
+                  <div class="price-percentage">
+
+                    <p>100,000</p>
+                    <span class="percentage positive"><img src="./Assets/arrow-up.svg"/>5.0%</span>
+                  </div>
+              </div>
+              <div class="card">
+                  <h5 class="card-hearding">Total Revenue</h5>
+                  <div class="price-percentage">
+
+                    <p>100,000</p>
+                    <span class="percentage positive"><img src="./Assets/arrow-up.svg"/>5.0%</span>
+                  </div>
+              </div>
+          </section>
+
+          <!-- Chart and Event News Section -->
+           <h3 class="section-heading">Event Registrations per month</h3>
+
+          <section class="chart-news-section">
+              <!-- Event Registration Chart -->
+              <div class="card chart-card">
+                 
+                  <div class="chart-container">
+                    
+                      <canvas id="myBarChart"></canvas>
+                  
+                  </div>
+              </div>
+              <!-- Event News Carousel -->
+              <div class="card event-news-card">
+                <div class="slideshow-container">
+
+                  <div class="mySlides fade">
+                   
+                    <img src="./Assets/images/Slide.png" style="width:100%">
+                    <div class="text">
+                      <h3>Latest News & Updates</h3>
+                      <p>Turpis interdum nunc varius ornare dignissim pretium. Massa ornare quis aliquet sed vitae. Sed velit nisi, fermentum erat. Fringilla purus, erat fringilla tincidunt quisque non. Pellentesque in ut tellus.</p>
+                      </div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    
+                    <img src="./Assets/images/Slide2.png" style="width:100%">
+                    <div class="text">
+                      <h3>Latest News & Updates</h3>
+                      <p>Turpis interdum nunc varius ornare dignissim pretium. Massa ornare quis aliquet sed vitae. Sed velit nisi, fermentum erat. Fringilla purus, erat fringilla tincidunt quisque non. Pellentesque in ut tellus.</p>
+                      </div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    
+                    <img src="./Assets/images/Slide3.png" style="width:100%">
+                    <div class="text">
+                      <h3>Latest News & Updates</h3>
+                      <p>Turpis interdum nunc varius ornare dignissim pretium. Massa ornare quis aliquet sed vitae. Sed velit nisi, fermentum erat. Fringilla purus, erat fringilla tincidunt quisque non. Pellentesque in ut tellus.</p>
+                      </div>
+                  </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                  
+                  </div>
+                  <br>
+                  
+                  <div style="text-align:center" class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+              </div>
+          </section>
+
+          <!-- Events History -->
+          <h3 class="section-heading">Events History</h3>
+          <div class="filter-controls">
+            <div class="controls-1">
+              
+              <!-- Other filters -->
+              <input type="search" id="search" placeholder="Search...">
+              <select id="date-filter">
+                <option value="">Date</option>
+              </select>
+              <select id="status-filter">
+                <option value="">Status</option>
+                <option value="completed">Completed</option>
+                <option value="in progress">In Progress</option>
+              </select>
+              <select id="name-filter">
+                <option value="">Name</option>
+              </select>
+              <p class="display-count">Displaying 100 results</p>
+            </div>
+            <div class="controls-1 sort">
+              <div class="sort-cont">
+
+                <span class="sort-label">Sort:</span>
+                <select id="status-filter">
+                  <option value="">Most Recent</option>
+                  <option value="completed">Oldest</option>
+                </select>
+              </div>
+              <div class="sort-cont">
+
+                <div class="dots-vertical">
+                  <span>&#8942;</span>
+                </div>
+                <button id="export-btn">Export</button>
+              </div>
+            </div>
+          </div>
+          <section class="events-history">
+          
+            
+          
+            <table>
+              <thead>
+                <tr>
+                  <th class="table-head">Event Name</th>
+                  <th class="table-head">Date</th>
+                  <th class="table-head">Speaker</th>
+                  <th class="table-head">Status</th>
+                </tr>
+              </thead>
+              <tbody class="tbody">
+                <!-- Example Row -->
+                <tr>
+                  <td class="event-name">
+                    <span>Event Name</span>
+                    <div class="event-details-container">
+                      <!-- Hidden initially, will be shown on arrow click -->
+                      <div class="event-details">
+                        <div class="event-speaker">
+                          Speaker Name
+                        </div>
+                        <div class="event-date">
+                          Event Date
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="event-status">
+                    <span>Event Status</span>
+                    <span class="arrow-toggle">➔</span>
+                  </td>
+                </tr>
+              </tbody>
+              
+              
+            </table>
+          
+            
+          </section>
+          
+          <div class="pagination-container">
+            <div class="pagination"></div>
+
+            <div><label for="itemsPerPage">Show:</label>
+              <select id="itemsPerPage">
+                <option value="5">5 rows</option>
+                <option value="10" selected>10 rows</option>
+                <option value="15">15 rows</option>
+              </select></div>
+
+          </div>
+          
+      </main>
+      <!-- Modal Structure -->
+<!-- Modal Structure -->
+<div id="eventModal" class="modal">
+<div class="modal-content">
+  <span class="close-btn">&times;</span>
+  <h2 id="modalEventName">Event Name</h2>
+  <p id="modalEventDate"> Event Date</p>
+  <p id="modalEventDescription">Event Description</p>
+  
+  <div id="modalSpeakers"></div> <!-- Guest Speakers Info -->
+  <p><span id="modalAttendees">0</span></p>
+
+  <!-- Action Buttons -->
+  <div class="modal-actions">
+    <button id="editBtn">Edit</button>
+    <div>
+
+      <button id="deleteBtn">Delete</button>
+      <button id="completeBtn">Mark as Completed</button>
+    </div>
+  </div>
+</div>
+</div>
+
+  </div>
+  
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./Js/Barchart.js"></script>
+    <script src="./Js/scripts.js"></script>
+    <script src="./Js/ToggleDarkmode.js"></script>
+    <script src="./Js/Slide.js"></script>
+    <script src="./Js/ToggleMenu.js"></script>
+    <script type="module" src="./Js/EventHistory.js"></script>
+    <script type="module" src="./Js/Filter.js"></script>
+    <script type="module" src="./Js/Collapsesidnav.js"></script>
+
+    
+</body>
+</html>

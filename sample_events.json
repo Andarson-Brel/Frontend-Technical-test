@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "event_name": "Cloud Innovation Summit",
+      "date": "2024-10-20",
+      "description": "An exploration of the latest cloud technologies and their impact on innovation.",
+      "speakers": [
+        { "name": "Jane Doe", "img": "https://randomuser.me/api/portraits/women/1.jpg" }
+      ],
+      "attendees": 300,
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "event_name": "Blockchain Revolution Conference",
+      "date": "2024-10-21",
+      "description": "A deep dive into the potential of blockchain technology and its applications.",
+      "speakers": [
+        { "name": "Dr. Peter Smith", "img": "https://randomuser.me/api/portraits/men/1.jpg" }
+      ],
+      "attendees": 450,
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "event_name": "AI in Healthcare Symposium",
+      "date": "2024-10-22",
+      "description": "How artificial intelligence is transforming healthcare, from diagnosis to treatment.",
+      "speakers": [
+        { "name": "Dr. Aisha Malik", "img": "https://randomuser.me/api/portraits/women/2.jpg" }
+      ],
+      "attendees": 200,
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "event_name": "Future of Fintech Forum",
+      "date": "2024-10-23",
+      "description": "Exploring the trends and future of financial technology in a rapidly changing world.",
+      "speakers": [
+        { "name": "John Lee", "img": "https://randomuser.me/api/portraits/men/2.jpg" }
+      ],
+      "attendees": 350,
+      "status": "In Progress"
+    },
+    {
+      "id": 5,
+      "event_name": "Data Analytics in Business",
+      "date": "2024-10-24",
+      "description": "The role of data analytics in driving business success and innovation.",
+      "speakers": [
+        { "name": "Rachel Moore", "img": "https://randomuser.me/api/portraits/women/3.jpg" }
+      ],
+      "attendees": 150,
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "event_name": "Sustainable Energy Expo",
+      "date": "2024-10-25",
+      "description": "Exploring sustainable energy solutions for a greener future.",
+      "speakers": [
+        { "name": "Prof. Alan Green", "img": "https://randomuser.me/api/portraits/men/3.jpg" }
+      ],
+      "attendees": 500,
+      "status": "In Progress"
+    },
+    {
+      "id": 7,
+      "event_name": "Web3 Interfaces Workshop",
+      "date": "2024-10-26",
+      "description": "Hands-on workshop on designing user-friendly interfaces for Web3 applications.",
+      "speakers": [
+        { "name": "Kevin Adams", "img": "https://randomuser.me/api/portraits/men/4.jpg" }
+      ],
+      "attendees": 120,
+      "status": "In Progress"
+    },
+    {
+      "id": 8,
+      "event_name": "Cybersecurity for Startups",
+      "date": "2024-10-27",
+      "description": "A guide to securing digital assets for startups in the digital age.",
+      "speakers": [
+        { "name": "Emily Zhang", "img": "https://randomuser.me/api/portraits/women/4.jpg" }
+      ],
+      "attendees": 220,
+      "status": "Completed"
+    },
+    {
+      "id": 9,
+      "event_name": "Smart Cities Forum",
+      "date": "2024-10-28",
+      "description": "The future of urban planning and technology in smart cities.",
+      "speakers": [
+        { "name": "Dr. Maria Hernandez", "img": "https://randomuser.me/api/portraits/women/5.jpg" }
+      ],
+      "attendees": 300,
+      "status": "Completed"
+    },
+    {
+      "id": 10,
+      "event_name": "Tech Safari Mixer",
+      "date": "2024-10-29",
+      "description": "A networking event for tech enthusiasts and professionals.",
+      "speakers": [
+        { "name": "Guest Panel", "img": "https://randomuser.me/api/portraits/men/5.jpg" }
+      ],
+      "attendees": 400,
+      "status": "In Progress"
+    },
+    {
+      "id": 11,
+      "event_name": "Green Tech Innovations",
+      "date": "2024-10-30",
+      "description": "Innovative green technologies aimed at reducing environmental impact.",
+      "speakers": [
+        { "name": "Anna Walker", "img": "https://randomuser.me/api/portraits/women/6.jpg" }
+      ],
+      "attendees": 350,
+      "status": "Completed"
+    },
+    {
+      "id": 12,
+      "event_name": "Space Exploration Summit",
+      "date": "2024-11-01",
+      "description": "Discussing the future of space exploration and interplanetary missions.",
+      "speakers": [
+        { "name": "Dr. Neil Armstrong", "img": "https://randomuser.me/api/portraits/men/6.jpg" }
+      ],
+      "attendees": 250,
+      "status": "In Progress"
+    },
+    {
+      "id": 13,
+      "event_name": "Quantum Computing Forum",
+      "date": "2024-11-03",
+      "description": "Understanding the potential of quantum computing for solving complex problems.",
+      "speakers": [
+        { "name": "Dr. Lisa Brown", "img": "https://randomuser.me/api/portraits/women/7.jpg" }
+      ],
+      "attendees": 180,
+      "status": "Completed"
+    },
+    {
+      "id": 14,
+      "event_name": "Robotics in Manufacturing",
+      "date": "2024-11-04",
+      "description": "How robotics is revolutionizing the manufacturing industry.",
+      "speakers": [
+        { "name": "Mark Taylor", "img": "https://randomuser.me/api/portraits/men/7.jpg" }
+      ],
+      "attendees": 270,
+      "status": "In Progress"
+    },
+    {
+      "id": 15,
+      "event_name": "5G Networks Symposium",
+      "date": "2024-11-05",
+      "description": "Exploring the implications and advancements of 5G technology.",
+      "speakers": [
+        { "name": "Sara Ali", "img": "https://randomuser.me/api/portraits/women/8.jpg" }
+      ],
+      "attendees": 300,
+      "status": "In Progress"
+    },
+    {
+      "id": 16,
+      "event_name": "Augmented Reality in Education",
+      "date": "2024-11-06",
+      "description": "Augmented reality applications for enhancing educational experiences.",
+      "speakers": [
+        { "name": "Dr. Samuel Davis", "img": "https://randomuser.me/api/portraits/men/8.jpg" }
+      ],
+      "attendees": 400,
+      "status": "Completed"
+    },
+    {
+      "id": 17,
+      "event_name": "Virtual Reality in Gaming",
+      "date": "2024-11-07",
+      "description": "Exploring how virtual reality is reshaping the gaming industry.",
+      "speakers": [
+        { "name": "Alex Johnson", "img": "https://randomuser.me/api/portraits/men/9.jpg" }
+      ],
+      "attendees": 500,
+      "status": "In Progress"
+    },
+    {
+      "id": 18,
+      "event_name": "AI in Agriculture Conference",
+      "date": "2024-11-08",
+      "description": "The role of artificial intelligence in modernizing agriculture.",
+      "speakers": [
+        { "name": "Dr. Susan Grant", "img": "https://randomuser.me/api/portraits/women/9.jpg" }
+      ],
+      "attendees": 200,
+      "status": "Completed"
+    },
+    {
+      "id": 19,
+      "event_name": "Advanced Machine Learning Summit",
+      "date": "2024-11-09",
+      "description": "Discussing the latest advancements in machine learning algorithms.",
+      "speakers": [
+        { "name": "David King", "img": "https://randomuser.me/api/portraits/men/10.jpg" }
+      ],
+      "attendees": 450,
+      "status": "In Progress"
+    },
+    {
+      "id": 20,
+      "event_name": "Innovative Solutions for Smart Homes",
+      "date": "2024-11-10",
+      "description": "Exploring cutting-edge technologies for building smart homes.",
+      "speakers": [
+        { "name": "Karen Lee", "img": "https://randomuser.me/api/portraits/women/10.jpg" }
+      ],
+      "attendees": 350,
+      "status": "In Progress"
+    }
+  ]
+  
