@@ -108,9 +108,9 @@ margin-top: 20px;
     color: white !important;
 }
 
-/* Add dark-mode styles for buttons if needed */
+
 .dark-mode .modal-actions button {
-    /* background-color: #ADA9BB; */
+
     color: white !important;
 }
 

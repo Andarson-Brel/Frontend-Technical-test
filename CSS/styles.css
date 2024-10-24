@@ -11,7 +11,7 @@
 }
 
 .sidebar.collapsed .profile-icon {
-  margin: 0 auto; /* Center the profile icon */
+  margin: 0 auto; 
   
 }
 
@@ -288,7 +288,7 @@ box-sizing: border-box;
   margin: 0;
   font-family: 'inter', sans-serif;
   display: flex;
-  /* height: 100vh; */
+
 }
 .section-heading {
 font-weight: 400;
@@ -476,7 +476,7 @@ color: green;
 color: red;
 }
 
-/* Additional styles remain unchanged */
+
 
 .card.event-news-card{
   padding: 0;
@@ -773,7 +773,7 @@ padding-bottom: 20px;
 }
 /* Sidebar for screens below 1068px */
 
-
+/* Responsive media queries */
 /* Larger Screens (Default for desktop) */
 @media only screen and (min-width: 1024px) {
   .sidebar {
@@ -814,17 +814,9 @@ padding-bottom: 20px;
     padding: 26px;
   }
 
-  /* Ensure the summary cards take full width on smaller screens */
-  .summary-cards {
-    /* flex-direction: row; */
-    gap: 1rem;
-  }
+ 
 
-
-  /* Pagination alignment */
-  .pagination-container {
-    justify-content: space-between;
-  }
+ 
   
   .filter-controls {
     flex-direction: column;
@@ -890,12 +882,6 @@ padding-bottom: 20px;
 .header img {
   cursor: pointer;
 }
-
-
-
-
-
-
 }
 
 /* Bottom Navigation Styling */
@@ -1047,12 +1033,10 @@ table thead tr th:nth-child(4) { /* Only show Event Name and Status */
     font-size: 0; /* Hide text for smaller screens */
   }
 
-  
-
   .card {
     width: 100%; /* Full width cards for mobile */
 
- 
+  }
 
   .pagination-container {
     /* flex-direction: column; */
