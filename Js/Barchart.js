@@ -1,7 +1,7 @@
 // Initialize the chart
 const ctx = document.getElementById('myBarChart').getContext('2d');
 
-// Define a function to update chart tick and grid colors based on dark mode
+// function to update chart tick and grid colors based on dark mode
 function getTickColor() {
     return localStorage.getItem('darkMode') === 'enabled' ? '#ffffff' : '#64748B';
 }
@@ -62,7 +62,7 @@ function updateChartColors() {
     myBarChart.update();  // Update the chart to apply new colors
 }
 
-// Add an event listener to handle the theme change
+// event listener to handle the theme change
 document.getElementById('theme-switch').addEventListener('change', () => {
     updateChartColors();
 });

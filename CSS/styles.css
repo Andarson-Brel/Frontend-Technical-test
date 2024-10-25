@@ -106,7 +106,9 @@
   margin-left: 100px;
 }
 
-
+.sidebar .logo-section{
+  margin-bottom: 20px;
+}
 
 /* Dark Mode Styles */
 :root.dark-mode {
@@ -211,6 +213,11 @@ color: #fff;
   color: #fff;
 }
 
+.sort-cont{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /* Ensure that dark mode text color overrides general link or text styling */
 .sidebar.dark-mode .nav-list a,
 body.dark-mode .pagination,
@@ -528,7 +535,6 @@ canvas {
   left: 0;
 }
 
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -689,7 +695,7 @@ thead tr th{
 }
 
 .dots-vertical{
-  padding: 8px 14px;
+  padding: 6px 14px;
   border: 1px solid var(--gray-100);
   cursor: pointer;
 
@@ -697,6 +703,7 @@ thead tr th{
 }
 .dots-vertical:hover{
   background:var(--color-select);
+  color: black;
 }
 .status.completed {
   background-color: var(--color-green-shade);

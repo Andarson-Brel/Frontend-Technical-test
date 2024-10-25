@@ -1,4 +1,3 @@
-// scripts.js
 
 document.addEventListener("DOMContentLoaded", () => {
     const collapseButton = document.querySelector(".collapse-btn");
